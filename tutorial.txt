@@ -1,0 +1,9 @@
+download asp.net from
+https://dotnet.microsoft.com/en-us/download/dotnet/7.0
+
+dotnet new web -o TodoApi
+cd TodoApi
+code -r ../TodoApi
+
+dotnet dev-certs https --trust
+dotnet run
